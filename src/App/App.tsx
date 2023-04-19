@@ -13,10 +13,10 @@ function App(): JSX.Element {
   return (
     <Routes>
       <Route path="/animals-best-friends" element={<Layout />}>
-        <Route path="/animals-best-friends" element={<HomePage />} />
-        <Route path="/wolf" element={<WolfPage />} />
-        <Route path="dog" element={<DogPage />} />
-        <Route path="animals-best-friends/cat" element={<CatPage />} />
+        <Route path="/animals-best-friends/home" element={<HomePage />} />
+        <Route path="/animals-best-friends/wolf" element={<WolfPage />} />
+        <Route path="/animals-best-friends/dog" element={<DogPage />} />
+        <Route path="/animals-best-friends/cat" element={<CatPage />} />
         <Route path="/animals-best-friends/pig" element={<PigPage />} />
       </Route>
     </Routes>
