@@ -12,7 +12,7 @@ import PigPage from '../PigPage/PigPage';
 function App(): JSX.Element {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/animals-best-friends" element={<Layout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/wolf" element={<WolfPage />} />
         <Route path="/dog" element={<DogPage />} />
