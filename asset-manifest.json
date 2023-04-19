@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/best-friends-animals/static/css/main.19704682.css",
-    "main.js": "/best-friends-animals/static/js/main.90a9682c.js",
-    "index.html": "/best-friends-animals/index.html",
-    "main.19704682.css.map": "/best-friends-animals/static/css/main.19704682.css.map",
-    "main.90a9682c.js.map": "/best-friends-animals/static/js/main.90a9682c.js.map"
+    "main.css": "/animals-best-friends/static/css/main.19704682.css",
+    "main.js": "/animals-best-friends/static/js/main.90a9682c.js",
+    "index.html": "/animals-best-friends/index.html",
+    "main.19704682.css.map": "/animals-best-friends/static/css/main.19704682.css.map",
+    "main.90a9682c.js.map": "/animals-best-friends/static/js/main.90a9682c.js.map"
   },
   "entrypoints": [
     "static/css/main.19704682.css",
