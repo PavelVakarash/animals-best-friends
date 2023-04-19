@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  border: 10px solid #C5B358;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+  background-color: #f5deb3;
+
+  font-family: 'Old Standard TT', serif;
+  animation: color-change 5s ease-in-out infinite;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+li,
+ul {
+  padding: 0px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+@keyframes color-change {
+
+  0% {
+    background-color: #f5deb3;
+  }
+
+  50% {
+    background-color: #e3c899;
+  }
+
+  100% {
+    background-color: #f5deb3;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

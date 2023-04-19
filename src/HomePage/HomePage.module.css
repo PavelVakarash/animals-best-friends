@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: olive;
+}
+
+.video {
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .video_container,
+    .img_button_container {
+        width: 100%;
+    }
+
+    .video_pics {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .video {
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+        border: 5px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+}
