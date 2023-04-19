@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/pavelvakarash.github.io/animals-best-friends/static/css/main.19704682.css",
-    "main.js": "/pavelvakarash.github.io/animals-best-friends/static/js/main.1ce71e07.js",
-    "index.html": "/pavelvakarash.github.io/animals-best-friends/index.html",
-    "main.19704682.css.map": "/pavelvakarash.github.io/animals-best-friends/static/css/main.19704682.css.map",
-    "main.1ce71e07.js.map": "/pavelvakarash.github.io/animals-best-friends/static/js/main.1ce71e07.js.map"
+    "main.css": "./static/css/main.19704682.css",
+    "main.js": "./static/js/main.1ce71e07.js",
+    "index.html": "./index.html",
+    "main.19704682.css.map": "./static/css/main.19704682.css.map",
+    "main.1ce71e07.js.map": "./static/js/main.1ce71e07.js.map"
   },
   "entrypoints": [
     "static/css/main.19704682.css",
