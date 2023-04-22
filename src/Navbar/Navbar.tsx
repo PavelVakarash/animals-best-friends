@@ -19,6 +19,12 @@ function Navbar(): JSX.Element {
     function handleHomeClick(): void {
         navigate('/');
     }
+    const handleScrollToBottom = (): void => {
+          window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+          });
+        };
 
     return (
         <div className={style.navbar}>
@@ -27,6 +33,7 @@ function Navbar(): JSX.Element {
             <button className={style.nav_button} type="button" onClick={handleDogClick}>Living With Dogs</button>
             <button className={style.nav_button} type="button" onClick={handlePigClick}>Living With Pigs</button>
             <button className={style.nav_button} type="button" onClick={handleCatClick}>Living With Cats</button>
+            <button className={style.nav_button} type="button" onClick={handleScrollToBottom}>{'\u2193'}</button>
         </div>
     );
 }

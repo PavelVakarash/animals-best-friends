@@ -7,6 +7,7 @@
     background-color: rgba(200, 200, 200, 1);
     position: sticky;
     top: 0;
+    flex-wrap: wrap;
 }
 
 .nav_button {
@@ -24,3 +25,4 @@
 .nav_button:hover {
     background-color: rgba(200, 200, 200, 1);
 }
+

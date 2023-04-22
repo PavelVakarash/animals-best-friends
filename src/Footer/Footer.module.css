@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #C5B358;
+    flex-wrap: wrap;
 }
 
 .nav_button {

@@ -12,12 +12,12 @@ import PigPage from '../PigPage/PigPage';
 function App(): JSX.Element {
   return (
     <Routes>
-      <Route path="/best-friends-animals" element={<Layout />}>
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/wolf" element={<WolfPage />} />
-        <Route path="/dog" element={<DogPage />} />
-        <Route path="/cat" element={<CatPage />} />
-        <Route path="/pig" element={<PigPage />} />
+      <Route path="/" element={<Layout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="wolf" element={<WolfPage />} />
+        <Route path="dog" element={<DogPage />} />
+        <Route path="cat" element={<CatPage />} />
+        <Route path="pig" element={<PigPage />} />
       </Route>
     </Routes>
   );

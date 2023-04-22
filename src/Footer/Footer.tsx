@@ -19,6 +19,12 @@ function Footer(): JSX.Element {
     function handleHomeClick(): void {
         navigate('/');
     }
+    const handleScrollToTop = (): void => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      };
 
     return (
         <div className={style.footer}>
@@ -27,6 +33,7 @@ function Footer(): JSX.Element {
             <button className={style.nav_button} type="button" onClick={handleDogClick}>Living With Dogs</button>
             <button className={style.nav_button} type="button" onClick={handlePigClick}>Living With Pigs</button>
             <button className={style.nav_button} type="button" onClick={handleCatClick}>Living With Cats</button>
+            <button className={style.nav_button} type="button" onClick={handleScrollToTop}>{'\u2191'}</button>
         </div>
     );
 }
