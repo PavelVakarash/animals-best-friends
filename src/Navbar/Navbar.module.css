@@ -1,7 +1,7 @@
 .navbar {
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 2vw;
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(200, 200, 200, 1);
@@ -12,12 +12,12 @@
 
 .nav_button {
 
-    padding: 10px 20px;
+    padding: 0.7vw 1.2vw;
     border: none;
-    border-radius: 20px;
+    border-radius: 2vw;
     background-color: rgba(100, 100, 100, 1);
     color: #fff;
-    font-size: 18px;
+    font-size: 1.5vw;
     cursor: pointer;
     font-family: 'Old Standard TT', serif;
 }
